@@ -33,7 +33,6 @@ body {
 .reset-grid-btn {
     width: 8rem;
     height: 3rem;
-    margin-top: 1rem;
     color: white;
     border: none;
     background-color: hsl(207, 96%, 46%);
