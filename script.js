@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 
-let gridSize = 16;
+let gridSize = 50;
 
 function randomColor() {
     let red = Math.round(Math.random() * 255);
