@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in element's total size */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2E2E2E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -40%;  /* Center container horizontally and vertically */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.cell {
+    background-color: white;
+    margin: 0;
+    border: none;  /* Ensure there's no border or gap */
+}
+
+.reset-grid-btn {
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    background-color: hsl(207, 96%, 46%);
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color transform;
+    transition-duration: 0.3s;
+}
+
+.reset-grid-btn:hover {
+    background-color: hsl(207, 96%, 36%);
+    transform: scale(1.05);
+}
