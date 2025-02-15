@@ -13,8 +13,8 @@ function randomColor() {
 function createGrid(size) {
     container.innerHTML = "";  // Clear any existing grid
 
-    const containerWidth = window.innerWidth * 0.7;  // Adjust to container's width (70% of viewport width)
-    const containerHeight = window.innerHeight * 0.7;  // Adjust to container's height (70% of viewport height)
+    const containerWidth = window.innerWidth * 0.75;  // Adjust to container's width (70% of viewport width)
+    const containerHeight = window.innerHeight * 0.75;  // Adjust to container's height (70% of viewport height)
 
     const cellSize = Math.floor(Math.min(containerWidth, containerHeight) / size);  // Ensure square grid
 
