@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* Ensures padding and borders are included in element's total size */
+    box-sizing: border-box; 
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -50% -40%;  /* Center container horizontally and vertically */
+    translate: -50% -40%; 
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
@@ -27,7 +27,7 @@ body {
 .cell {
     background-color: white;
     margin: 0;
-    border: none;  /* Ensure there's no border or gap */
+    border: none; 
 }
 
 .reset-grid-btn {
